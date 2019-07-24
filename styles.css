@@ -1,0 +1,44 @@
+img{
+  width: 350px;
+  height: 300px;
+  border: solid black;
+  margin: 20px;
+}
+
+body {
+  background-color: #4A8DA3;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+
+}
+
+.images-container
+{
+display:flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+
+
+}
+
+@media screen and (max-width: 900px)  {
+  img{
+    width:200px;
+    height:100;
+
+  }}
+
+
+
+  .images-container {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+}
